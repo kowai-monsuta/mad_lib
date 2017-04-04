@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>My MadLib</title>
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+<h1 id="bigtitle">My MadLib</h1>
+
+<div class="data">
+
+    <p class="instructions"><i>Enter a value into each field. Then press 'Make Story' to read the story you made.</i></p>
+
+    <!--
+    Request that the user type in at least 15 words in the form below. Ask for the
+    words by part of speach (noun, verb, adjective, adverb, proper noun, etc.) You
+    can also ask for things like places. Use field ids like noun1, noun2, verb1, etc.
+
+    Then make a button with the text "Make Story". The Make Story button should call
+    your makeStory() function which gets all of the form data and then builds and
+    displays your finished story.
+    -->
+
+    <form>
+      Your Name <br> <input type="text" id='name'> <br>
+      Teacher your know <br> <input type="text" id='teacher'> <br>
+      Adjective <br> <input type="text" id='adjective'> <br>
+      Noun 1 <br> <input type="text" id='noun1'> <br>
+      Common Noun 1 <br> <input type="text" id='commonnoun1'> <br>
+      Common Noun 2 <br> <input type="text" id='commonnoun2'> <br>
+      Random Number <br> <input type="text" id='number'> <br>
+      Number(1-10) <br> <input type="text" id='number2'> <br>
+      Adverb 1 <br> <input type="text" id='adverb1'> <br>
+      Name of a vehicle <br> <input type="text" id='noun2'> <br>
+      Favorite Restaurant <br> <input type="text" id='noun3'> <br>
+      Favorite breakfest <br> <input type="text" id='noun4'> <br>
+      Collective Noun <br> <input type="text" id='noun5'> <br>
+      Your Friend's Name <br> <input type="text" id='noun6'> <br>
+      Your School's Name <br> <input type="text" id='schoolname'> <br>
+      <input type="button" onclick="makeStory()" value="Make your story">
+    </form>
+
+</div>
+
+<div class="story">
+    <h2 id="title"></h2>
+    <p class="one" id="one"></p>
+    <p class="two"  id="two"></p>
+    <p class="three" id="three"></p>
+    <p class="image" id="image"></p>
+
+</div>
+
+<!-- don't forget to link to the story_maker.js file here. -->
+<script src="story_maker.js"></script>
+
+</body>
+</html>

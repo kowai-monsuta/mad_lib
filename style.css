@@ -1,0 +1,61 @@
+body {
+    background-color: #ccccff;
+    padding: 2%;
+}
+
+h1 {
+    border-bottom: 3px solid #888888;
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+  font-family: 'Old Standard TT', serif;
+    text-align: center;
+}
+
+p.one {
+font-family: 'Handlee', cursive;
+font-size: 20px;
+}
+
+p.two {
+font-family: 'Handlee', cursive;
+font-size: 20px;
+}
+
+p.three {
+font-family: 'Handlee', cursive;
+font-size: 20px;
+}
+
+p.instructions {
+    font-weight: bold;
+}
+
+p.image{
+  padding: 6px;
+  text-align: center;
+}
+
+
+div {
+    background-color: #FFFFFF;
+    border: 3px solid #888888;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+
+div.data {
+    margin-right: 2%;
+    width: 25%
+}
+
+div.story {
+    width: 73%;
+}
